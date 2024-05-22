@@ -1,0 +1,38 @@
+<pet-header></pet-header>
+
+
+<main>
+
+    <ng-template [ngIf]="isLoading">
+   <section class="pet__names">
+    <h1>{{ pet.name }}</h1>
+    <h2>{{pet.name}}</h2>
+   </section>
+   
+   <section class="pet__status">
+    <img 
+        [src]="pet.foto" 
+        [alt]="pet.name"
+    >
+
+    <article class="pet__status__statistics">
+        <section>
+            <h3>Informações</h3>
+<br>
+            <ol>
+                <li>Espécie:<strong>{{ pet.especie }}</strong></li>
+                <li>Raça<strong>{{ pet.raca }}</strong></li>
+                <li>Cor:<strong>{{ pet.cor }}</strong></li>
+                <li>Sexo:<strong>{{ pet.sexo }}</strong></li>
+                <li>Contato:<strong>{{ pet.telefone }}</strong></li>
+            </ol>
+        </section>
+
+        <a [routerLink]="['']" class="btn btn__secondary">
+            Voltar
+        </a>
+    </article>
+   </section>
+</ng-template>
+<img src="assets/error.png" alt="erro ao carregar" width="100%" *ngIf="apiError">
+</main>

@@ -1,0 +1,31 @@
+    <!--search-->
+    <pet-search (emmitSearch)="getSearch($event)"></pet-search>
+
+
+<section class="listagem">
+    <ng-template ngFor let-pet [ngForOf]="getAllPets">
+    <a [routerLink]="['details', pet.id]" class="pet" >
+        <section class="pet__status">
+            <h2>
+                {{ pet.name }}
+            </h2>
+
+            <ul>
+                <li>{{ pet.especie }}</li>
+                <li>{{ pet.raca }}</li>
+                <li>{{ pet.cor }}</li>
+            </ul>
+        </section>
+
+        <section class="pet__image">
+            <img 
+            [src]="pet.foto"
+            [alt]="pet.name"
+            >
+        </section>
+    </a>
+    </ng-template>
+</section>
+<img src="assets/error.png" alt="erro ao carregar" width="100%" *ngIf="apiError">
+
+

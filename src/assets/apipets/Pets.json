@@ -1,0 +1,125 @@
+{
+    "animais": [
+        {
+            "id": "1",
+            "name": "nina",
+            "especie": "cão",
+            "raça": "poodle",
+            "cor": "branco",
+            "sexo": "fêmea",
+            "telefone": "",
+            "tipo": "perdido",
+            "foto": "1.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Thor",
+            "especie": "cão",
+            "raça": "pinscher",
+            "cor": "preto",
+            "sexo": "macho",
+            "telefone": "(13)999999999",
+            "tipo": "perdido",
+            "foto": "3.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Persian",
+            "especie": "gato",
+            "raça": "persa",
+            "cor": "marrom",
+            "sexo": "macho",
+            "telefone": "(13) 99999-9999",
+            "tipo": "perdido",
+            "foto": "3.jpg"
+        },
+        {
+            "id": "4",
+            "name": "",
+            "especie": "gato",
+            "raça": "tigrado",
+            "cor": "caramelo",
+            "sexo": "macho",
+            "telefone": "(13) 99999-9999",
+            "tipo": "achado",
+            "foto": "4.jpg"
+        },
+        {
+            "id": "5",
+            "name": "",
+            "especie": "cão",
+            "raça": "vira-lata",
+            "cor": "caramelo",
+            "sexo": "macho",
+            "telefone": "(13) 99999-9999",
+            "tipo": "achado",
+            "foto": "5.jpg"
+        },
+        {
+            "id": "6",
+            "name": "",
+            "especie": "equino",
+            "raça": "",
+            "cor": "marrom",
+            "sexo": "fêmea",
+            "telefone": "(13) 99999-9999",
+            "tipo": "achado",
+            "foto": "6.jpg"
+        },
+        {
+            "id": "7",
+            "name": "jefersson",
+            "especie": "bovino",
+            "raça": "nerole",
+            "cor": "branco",
+            "sexo": "macho",
+            "telefone": "(13) 99999-9999",
+            "tipo": "perdido",
+            "foto": "7.jpg"
+        },
+        {
+            "id": "8",
+            "name": "piu piu",
+            "especie": "ave",
+            "raça": "cacatua",
+            "cor": "branco",
+            "sexo": "macho",
+            "telefone": "(13) 99999-9999",
+            "tipo": "perdido",
+            "foto": "8.jpg"
+        },
+        {
+            "id": "9",
+            "name": "senhor",
+            "especie": "bezerro",
+            "raça": "",
+            "cor": "azul",
+            "sexo": "macho",
+            "telefone": "(13) 99999-9999",
+            "tipo": "perdido",
+            "foto": "9.jpg"
+        },
+        {
+            "id": "10",
+            "name": "loro",
+            "especie": "ave",
+            "raça": "papagaio",
+            "cor": "verde",
+            "sexo": "macho",
+            "telefone": "(13) 99999-9999",
+            "tipo": "perdido",
+            "foto": "10.jpg"
+        },
+        {
+            "id": "11",
+            "name": "",
+            "especie": "ave",
+            "raça": "canario",
+            "cor": "amarelo",
+            "sexo": "fêmea",
+            "telefone": "999999999",
+            "tipo": "achado",
+            "foto": "11.jpg"
+        }
+    ]
+}
